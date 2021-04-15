@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.hide {
+  display: none;
+}
+body {
+  color: rgb(0, 0, 0);
+  background-color: #21497a;
+  font-size: 2em;
+}
+h2 {
+  text-align: center;
+  color: #2b3c49;
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 1.25;
+  margin: 1rem 0;
+}
+.readings {
+  display: flex;
+  flex-wrap: wrap;
+}
+.reading {
+  flex: 1 1 auto;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+.reading label {
+  display: block;
+  margin-top: 0;
+  text-align: center;
+}
+.reading span {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 100;
+}
+.reading span::after {
+  font-size: 0.65em;
+  content: " °C 🔥";}
