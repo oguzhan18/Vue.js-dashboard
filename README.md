@@ -7,7 +7,7 @@ A web application with a system dashboard with Vue.js.
 - A web application with a system dashboard containing Vue.js.
 - Chart.js is used.
 #
-<img src="sisteö.png"></img>
+<img src="sistem.png"></img>
 ## Look out!
 Delete emojis and run them.
 
